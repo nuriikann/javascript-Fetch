@@ -120,6 +120,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+h6{
+  display: flex;
+}
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -10806,4 +10810,16 @@ header.masthead .post-heading .meta a {
   transition: 1000ms;
   font-size: 15px;
   margin-bottom: 50px;
+}
+h6.authorColor{
+  color: red;
+}
+
+.postedBy{
+  display: flex;
+  gap: 10px;
+}
+
+.hide{
+  display: none;
 }
